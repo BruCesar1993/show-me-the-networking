@@ -1,0 +1,220 @@
+/* responsivo */
+
+@media(max-width: 600px){
+    .direita{
+    
+        /* display: none; */
+        
+    }
+
+    .tela{
+       flex-direction: column;
+    }
+    
+    .convidados{
+        background-color:#F0F0F0;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       
+    }
+
+    .pessoa{
+        margin-bottom: 100px;
+    }
+
+
+
+    .iconis{
+
+        flex-direction: column;
+
+    }
+}
+
+
+
+
+
+
+body{
+
+    background-image: url("coronavirus-2019-ncov-virus-background-with-disease-cells-covid-19-corona-virus-outbreaking-pandemic-medical-health-risk-concept_139523-181.jpg");
+  
+
+}
+
+.tela{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+ 
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+
+.esquerda{
+    width: 100%;
+    height: 550px;
+    background-color:cornsilk;
+    margin-top: 0px;
+    padding-top: 100px;
+}
+
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.subtitulo{
+    display: flex;
+    justify-content: center;
+}
+
+.contagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entradas{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    
+
+}
+
+
+
+
+.direita{
+    background-color: lawngreen;
+    align-items: center; 
+    width: 100%;
+    height: 550px;
+    margin-top: 0px;
+    padding-top: 100px;
+    
+  
+}
+
+
+
+    
+.numero
+    {
+    
+    min-width: 40px;
+    max-width: 50px;
+    background-color: #efefef;
+    color: #000000;
+    font-size: 22px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+
+    
+.legenda{
+    height: 25px;
+    line-height: 10px;
+    font-size:12px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.texto{
+    background-color:#F50057;
+    height: 50px;
+    text-align: center;
+    
+}
+
+.tela2{
+    text-align: center;
+}
+
+.tela3{
+    background-color:#F0F0F0;
+    text-align: center;
+}
+
+.convidados{
+    display: flex;
+    justify-content: space-around;
+  
+    
+}
+
+.pessoa{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background-color: darkgray;
+    padding-top: 30px;
+    border-radius: 50%;
+    flex-direction: column;
+ }
+
+.texto2{
+
+        background-color:#F50057;
+        height: 50px;
+        text-align: center;
+        margin-top: 80px;     
+        margin-bottom: 80px; 
+    
+}
+
+.tela4{
+
+    background-color: tomato;
+    height: auto;
+
+
+}
+
+.iconis{
+    
+    display: flex;
+    justify-content: center;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.iconis img{
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    max-width: 100px;
+    align-self:center;
+}
+
+.iconis p{
+    padding-top: 30px;
+}
+
+/* footer{
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    bottom: 0;
+    position: fixed;
+    background-color: grey;
+    padding: 7px;
+} */
