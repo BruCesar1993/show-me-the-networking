@@ -17,10 +17,9 @@ dias = parseInt(segundos_f / 86400);
     segundos = parseInt(segundos_f % 60);
 
     document.getElementById('dia').innerHTML = dias;
-document.getElementById('hora').innerHTML = horas;
-document.getElementById('minuto').innerHTML = minutos;
-document.getElementById('segundo').innerHTML = segundos;
-  
+    document.getElementById('hora').innerHTML = horas;
+    document.getElementById('minuto').innerHTML = minutos;
+    document.getElementById('segundo').innerHTML = segundos;
 
 }, 1000);
 
