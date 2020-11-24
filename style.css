@@ -294,10 +294,14 @@ body{
     padding-bottom: 30px;
     padding-left: 100px;
     padding-right: 100px;
-    background-color: lightgray;
+    background-color: rgb(204, 204, 204);
     font-size: 15px;
 }
 
 .midias2{
     padding-left: 30px;
+}
+
+a:hover{
+    text-decoration: none;
 }
