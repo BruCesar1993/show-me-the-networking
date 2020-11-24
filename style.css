@@ -149,6 +149,7 @@ body{
     width: 150px;
     height: 40px;
     margin-top: 50px;
+    outline:none;
 }
 
 .numero{
