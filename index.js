@@ -23,4 +23,11 @@ dias = parseInt(segundos_f / 86400);
 
 }, 1000);
 
+function abrir(){
+    document.getElementById('cadastrado').style.display = 'block';
+}
+
+function fechar(){
+    document.getElementById('cadastrado').style.display = 'none'
+}
 
