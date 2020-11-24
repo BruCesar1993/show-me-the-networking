@@ -101,6 +101,7 @@ body{
 .mt-2{
     border-radius: 100px;
     border-style: hidden;
+    outline:none
 }
 
 ::-webkit-input-placeholder {
