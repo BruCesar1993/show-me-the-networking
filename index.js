@@ -22,4 +22,3 @@ dias = parseInt(segundos_f / 86400);
     document.getElementById('segundo').innerHTML = segundos;
 
 }, 1000);
-
