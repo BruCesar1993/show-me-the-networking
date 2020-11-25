@@ -345,6 +345,7 @@ a:hover{
 
 #modal{
     color: white;
+    font-weight: bold;
     background-color: #F50057 ;
     position: fixed;
     top: 0;
