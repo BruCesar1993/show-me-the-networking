@@ -3,7 +3,8 @@
 @media(max-width: 600px){
     .direita{
     
-        /* display: none; */
+        /* height: 100vh;
+         */
         
     }
 
@@ -33,6 +34,14 @@
 
         flex-direction: column;
 
+    }
+
+    .entradas{
+        margin-bottom: 40px;
+    }
+
+    .botao1{
+        margin-bottom: 60px;
     }
 }
 
@@ -119,11 +128,13 @@ body{
 .direita{
     background-image: url("./imagens/bcgimg.png");
     background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
     display: flex;
     align-items: center; 
     justify-content: center;
     width: 100%;
-    height: auto;
+    
     margin-top: 0px;
     padding-top: 100px;
     
@@ -135,6 +146,7 @@ body{
     width: 70%;
     height: 70%;
     align-content: center;
+    margin-bottom: 120px;
 }
 
 .meavise{
