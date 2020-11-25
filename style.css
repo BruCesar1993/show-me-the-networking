@@ -1,10 +1,19 @@
 /* responsivo */
 
-@media(max-width: 600px){
+/* @media (min-width: 1300px){
+    .entradas{
+        margin-top: 50px;
+    }
+
+    .botao1{
+        margin-bottom: 50px;
+    }
+} */
+
+
+@media(max-width: 700px){
     .direita{
-    
-        /* height: 100vh;
-         */
+    float: left;
         
     }
 
@@ -335,6 +344,7 @@ a:hover{
 }
 
 #modal{
+    color: white;
     background-color: #F50057 ;
     position: fixed;
     top: 0;
@@ -348,6 +358,3 @@ a:hover{
     display: none;
 }
 
-.baixe p{
-    color: white;
-}
