@@ -208,7 +208,7 @@ body{
     height: auto;
     text-align: center;
     padding-top: 60px;
-    margin-bottom: 120px;
+    padding-bottom: 120px;
 }
 
 .tela3 h2{
@@ -218,7 +218,7 @@ body{
 .convidados{
     display: flex;
     justify-content: space-around;
-
+    height: auto;
 }
 
 .pessoa{
@@ -267,7 +267,7 @@ body{
 
 .tela6 {
     background-color: #F0F0F0;
-    height: 60vh;
+    height: 70vh;
     text-align: center;
     justify-content: center;
 }
