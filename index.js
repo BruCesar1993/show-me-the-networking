@@ -22,3 +22,14 @@ setInterval(function () {
     document.getElementById('segundo').innerHTML = segundos;
 
 }, 1000);
+
+
+
+
+function abrir(){
+    document.getElementById('modal').style.display = 'block';
+}
+
+function fechar(){
+    document.getElementById('modal').style.display = 'none'
+}
