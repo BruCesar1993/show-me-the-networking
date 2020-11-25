@@ -13,11 +13,6 @@
 
 @media(max-width: 700px){
     
-    .titulo{
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-    
     .direita{
     float: left;
         
@@ -100,8 +95,8 @@ body{
 .titulo{
     text-align: center;
     font-weight: bolder;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
     
 }
 
