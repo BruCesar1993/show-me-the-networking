@@ -12,6 +12,12 @@
 
 
 @media(max-width: 700px){
+    
+    .titulo{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
     .direita{
     float: left;
         
@@ -109,7 +115,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 .entradas{
