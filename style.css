@@ -244,11 +244,12 @@ body{
     height: auto;
     text-align: center;
     padding-top: 60px;
-    padding-bottom: 120px;
+    padding-bottom: 20px;
 }
 
 .tela3 h2{
     font-weight: bold;
+    padding-bottom: 20px;
 }
 
 .convidados{
@@ -260,14 +261,43 @@ body{
 .pessoa{
     display: flex;
     align-items: center;
-    height: 100px;
-    width: 100px;
-    background-color: darkgray;
-    padding-top: 30px;
-    border-radius: 50%;
+    height: auto;
+    width: 60vh;
     flex-direction: column;
-    margin-top: 20px;
  }
+
+ .pessoa p{
+    font-weight: bold;
+ }
+
+ .pessoa ul{
+    text-align: left;
+ }
+ 
+ .foto{
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    background-image: url("./imagens/Alexandre.png");
+    border-radius: 50%;
+ }
+
+ .foto2{
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    background-image: url("./imagens/Bruna.jpg");
+    border-radius: 50%;
+ }
+
+ .foto3{
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    background-image: url("./imagens/Andrea.jpeg");
+    border-radius: 50%;
+ }
+
 
  /* .participante{
      background-color: #F0F0F0 ;
