@@ -1,4 +1,4 @@
-let target_date = new Date("november 26, 2020").getTime();
+let target_date = new Date("november 27, 2020").getTime();
 let dias, horas, minutos, segundos;
 let regressiva = document.getElementById("regressiva");
 
@@ -7,10 +7,10 @@ setInterval(function () {
     let current_date = new Date().getTime();
     let segundos_f = (target_date - current_date) / 1000;
 
-    dias = parseInt((segundos_f + 72000) / 86400);
-    segundos_f = segundos_f % 86400;
+    dias = parseInt((segundos_f + 71000) / 86400);
+    segundos_f = segundos_f % 8400;
     
-    horas = parseInt(segundos_f / 3600);
+    horas = parseInt(segundos_f  / 3600);
     segundos_f = segundos_f % 3600;
     
     minutos = parseInt(segundos_f / 60);
