@@ -36,6 +36,13 @@ setInterval(function () {
 
     }
 
+    if( dias == 0 && horas == 0 && minutos < 0 && segundos < 0){
+        document.getElementById('dia').innerHTML = 0;
+        document.getElementById('hora').innerHTML = 0 ;
+        document.getElementById('minuto').innerHTML = 0;
+        document.getElementById('segundo').innerHTML = 0;
+    }
+
 
 
 }, 1000);
