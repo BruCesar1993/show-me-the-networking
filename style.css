@@ -56,6 +56,18 @@
     .pessoa{
         max-width: 90%;
     }
+
+    #opcoes{
+
+        flex-direction: column;
+        max-width :90%
+
+    }
+
+    #opcoes2{
+        max-width :90%;
+        padding-top: 50px;
+    }
 }
 
 body{
