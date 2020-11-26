@@ -389,8 +389,9 @@ a:hover{
 #parceiros {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
+    padding: 50px;
 }
 
 .iconeparceiros {
@@ -400,22 +401,23 @@ a:hover{
 
 /* Página de Agradecimento */
 
-#conteudoagradecimento{
-    display: flex;
-    justify-content: center;
+#body2{
     background-color: #F50057;
-    height: 100%;
-    width: 100%;
 }
 
 #agradecimento{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: space-between;
+    align-items: center;
     text-align: center;
     background-color: white;
-    height: 100%;
+    margin-top: 3%;
+}
+
+#conteudoagradecimento{
+    display: flex;
+    justify-content: center;
 }
 
 #agradecimento h2{
