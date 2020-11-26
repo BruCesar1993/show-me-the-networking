@@ -25,7 +25,7 @@ setInterval(function () {
     let dia = hora.getDate()
     console.log(dia)
 
-    if(dia == 26){
+    if(dia == 26 && segundos > 0){
            
         target_date = new Date("november 27, 2020").getTime();
         document.getElementById('dia').innerHTML = 0;
@@ -33,16 +33,14 @@ setInterval(function () {
         document.getElementById('minuto').innerHTML = minutos ;
         document.getElementById('segundo').innerHTML = segundos 
 
+ }else{
 
-    }
-
-    if(segundos < 0){
         document.getElementById('dia').innerHTML = 0;
         document.getElementById('hora').innerHTML = 0 ;
         document.getElementById('minuto').innerHTML = 0;
         document.getElementById('segundo').innerHTML = 0;
-    }
 
+    }
 
 
 }, 1000);
