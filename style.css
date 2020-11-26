@@ -62,16 +62,17 @@
     }
 
 
-    #parceiros img{
+    #linhasp img{
         display: flex;
         height: auto;
         padding-left: 10px
         ;
     }
 
-    .linhap{
+    .linhap2{
        
-        padding-left: 50px;
+        margin-top: 30px;
+        /* padding-left: 50px; */
        
     }
    
