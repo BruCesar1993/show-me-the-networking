@@ -393,3 +393,83 @@ a:hover{
     display: none;
 }
 
+
+#conteudoagradecimento{
+    display: flex;
+    justify-content: center;
+    background-color: #F50057;
+    height: 100%;
+    width: 100%;
+}
+
+#agradecimento{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    text-align: center;
+    background-color: white;
+    margin-top: 0%;
+}
+
+#agradecimento h1{
+    color: #F50057;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+#agradecimento span{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#opcoes{
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+}
+#opcoes2{
+    display: flex;
+    justify-content: center;
+}
+
+#whatsapp{
+    background-color: rgb(77, 207, 115);
+    color: white;
+    font-size: 25px;
+    border-radius: 100px;
+    border-style: hidden;
+    width: 400px;
+    height: 60px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    max-width: 90%;
+    padding: 10px;
+}
+
+#instagram{
+    background-color: rgb(255, 127, 0);
+    color: white;
+    font-size: 25px;
+    border-radius: 100px;
+    border-style: hidden;
+    width: 400px;
+    height: 60px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    max-width: 90%;
+    padding: 10px;
+}
+
+#oneask{
+    background-color: rgb(210, 38, 116);
+    color: white;
+    font-size: 25px;
+    border-radius: 100px;
+    border-style: hidden;
+    width: 400px;
+    height: 60px;
+    margin-bottom: 30px;
+    max-width: 90%;
+    padding: 10px;
+}
