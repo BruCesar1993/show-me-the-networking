@@ -57,11 +57,6 @@
         max-width: 90%;
     }
 
-    #agradecimento h1{
-        padding-left: 0px;
-        padding-right: 0px;
-    }    
-
     #opcoes{
 
         flex-direction: column;
@@ -425,18 +420,12 @@ a:hover{
     align-items: space-between;
     text-align: center;
     background-color: white;
-    margin-top: 0%;
+    height: 100%;
 }
 
-#agradecimento h1{
+#agradecimento h2{
     color: #F50057;
-    padding-left: 30%;
-    padding-right: 30%;
-}
-
-#agradecimento span{
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-top: 30px;
 }
 
 #opcoes{
@@ -444,6 +433,7 @@ a:hover{
     justify-content: center;
     align-items: space-between;
 }
+
 #opcoes2{
     display: flex;
     justify-content: center;
