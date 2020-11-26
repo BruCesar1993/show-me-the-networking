@@ -1,16 +1,5 @@
 /* responsivo */
 
-/* @media (min-width: 1300px){
-    .entradas{
-        margin-top: 50px;
-    }
-
-    .botao1{
-        margin-bottom: 50px;
-    }
-} */
-
-
 @media(max-width: 700px){
     
     .direita{
@@ -27,7 +16,6 @@
     }
     
     .convidados{
-        /* background-color:#F0F0F0; */
        flex-direction: column;
        justify-content: center;
        align-items: center;
@@ -312,12 +300,6 @@ body{
     border-radius: 50%;
  }
 
-
- /* .participante{
-     background-color: #F0F0F0 ;
-     
- } */
-
 .tela4{
     height: auto;
 }
@@ -404,6 +386,19 @@ a:hover{
     display: none;
 }
 
+#parceiros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.iconeparceiros {
+    width: 10%;
+    height: 10%;
+}
+
+/* Página de Agradecimento */
 
 #conteudoagradecimento{
     display: flex;
