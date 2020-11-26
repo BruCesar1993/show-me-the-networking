@@ -1,16 +1,5 @@
 /* responsivo */
 
-/* @media (min-width: 1300px){
-    .entradas{
-        margin-top: 50px;
-    }
-
-    .botao1{
-        margin-bottom: 50px;
-    }
-} */
-
-
 @media(max-width: 700px){
     
     .direita{
@@ -27,7 +16,6 @@
     }
     
     .convidados{
-        /* background-color:#F0F0F0; */
        flex-direction: column;
        justify-content: center;
        align-items: center;
@@ -67,6 +55,18 @@
 
         padding-top: 50px;
     }
+
+    #parceiros{
+        flex-direction: column;
+    }
+
+
+    #parceiros img{
+        display: flex;
+        height: 100px;
+        ;
+    }
+   
 }
 
 body{
@@ -312,12 +312,6 @@ body{
     border-radius: 50%;
  }
 
-
- /* .participante{
-     background-color: #F0F0F0 ;
-     
- } */
-
 .tela4{
     height: auto;
 }
@@ -404,13 +398,37 @@ a:hover{
     display: none;
 }
 
-
 #conteudoagradecimento{
     /* display: flex;
     justify-content: center;
     background-color: #F50057;
     height: auto;
     width: 100%; */
+ }
+#parceiros {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 50px;
+}
+
+.parc{
+    margin: 13px;
+    width: 120px;
+    max-width: 40%;
+}
+
+.iconeparceiros {
+    width: 10%;
+    height: 10%;
+}
+
+/* Página de Agradecimento */
+
+#body2{
+    background-color: #F50057;
+
 }
 
 #agradecimento{
@@ -418,15 +436,23 @@ a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: space-between;
+    align-items: center;
     text-align: center;
     background-color: white;
+
     height: auto;
     margin: 0 auto;
     max-width: 80%;
     max-height: 100%;
     
     
+    margin-top: 3%;
+}
+
+#conteudoagradecimento{
+    display: flex;
+    justify-content: center;
+
 }
 
 #agradecimento h2{
@@ -486,6 +512,8 @@ a:hover{
     max-width: 80%;
     padding: 10px;
 }
+
+
 
 #body2{
     background-color:#F50057
