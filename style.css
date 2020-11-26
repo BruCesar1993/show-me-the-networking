@@ -57,6 +57,11 @@
         max-width: 90%;
     }
 
+    #agradecimento h1{
+        padding-left: 30px;
+        padding-right: 30px;
+    }    
+
     #opcoes{
 
         flex-direction: column;
