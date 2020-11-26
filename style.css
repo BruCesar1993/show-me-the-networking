@@ -53,6 +53,9 @@
     .botao1{
         margin-bottom: 60px;
     }
+    .pessoa{
+        max-width: 90%;
+    }
 }
 
 body{
