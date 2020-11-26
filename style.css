@@ -57,6 +57,7 @@
     }
 
     #parceiros{
+        display: flex;
         flex-direction: column;
     }
 
@@ -64,7 +65,14 @@
     #parceiros img{
         display: flex;
         height: auto;
+        padding-left: 10px
         ;
+    }
+
+    .linhap{
+       
+        padding-left: 50px;
+       
     }
    
 }
@@ -419,6 +427,7 @@ a:hover{
 }
 
 .parc{
+    
     margin: 13px;
     width: 120px;
     max-width: 40%;
