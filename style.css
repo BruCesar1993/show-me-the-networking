@@ -1,6 +1,6 @@
 /* responsivo */
 
-@media(max-width: 700px){
+@media(max-width: 800px){
     
     .direita{
     float: left;
@@ -63,7 +63,7 @@
 
     #parceiros img{
         display: flex;
-        height: 100px;
+        height: auto;
         ;
     }
    
