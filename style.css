@@ -1,5 +1,13 @@
 /* responsivo */
 
+@media(min-width:1300px){
+    .icones{
+       
+       display: flex;
+       justify-content: flex-start;
+    }
+}
+
 @media(max-width: 800px){
     
     .direita{
@@ -334,9 +342,9 @@ body{
 .icones{
     display: flex;
     justify-content: center;
-    max-width: 60%;
+    max-width: 80%;
     margin: 0 auto;
-    width: 60%;
+    width: 42%;
 }
 
 .icones img{
