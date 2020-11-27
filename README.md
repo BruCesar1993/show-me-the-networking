@@ -6,7 +6,7 @@ Atingir 1.000 visualizações através da realização de um evento online por S
 
 ## 2. Resumo do projeto
 
-A landing Page criada tem como objetivo captar 1000 leeds, e direciona- los para um evento online por Streaming, cuja temática tenha relação com o momento que o Brasil está vivendo, os mitos e verdades sobre a vacinação do COVID-19.
+A landing Page criada tem como objetivo captar 1000 leeds, e direciona- los para um evento online por Streaming, cuja temática tenha relação com o momento que o Brasil está vivendo, sendo ele "Os mitos e verdades sobre a vacinação do COVID-19".
 
 ## 3. Checklist
 
