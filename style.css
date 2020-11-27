@@ -75,6 +75,11 @@
         /* padding-left: 50px; */
        
     }
+
+    #midias{
+        display: flex;
+       flex-direction: row;
+    }
    
 }
 
